@@ -3,12 +3,21 @@ package br.com.bytebank.banco.teste;
 public class TesteString {
 
 	public static void main(String[] args) {
+	
+		System.out.println();
+//		System
+//		 - classe, java.lang, acesso publico (public)
+//		out
+//		 - atributo, publico, referencia, static
+//		println
+//		 - metodo, publico, nao static, sobrecarga,
+//		   nao joga excecoes do tipo checked
+	
 		
 		String vazio = " Alura ";
 		String outroVazio = vazio.trim();
 		System.out.println(vazio.contains("Al"));
 		System.out.println(outroVazio);
-		
 		
 		int a = 3;
 		String nome = "Alura"; //object literal		
